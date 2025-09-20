@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity</title>
+    <link rel="icon" href="static\images\logo.png" type="type/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+    <div class="flex flex-col h-screen">
+        
+        
+        <div class="header flex items-center h-16 rounded-sm border-2 border-[#212121] p-2.5 flex-shrink-0">
+            <div class="logo">
+                <img src="static\images\logo.png" class="h-12 w-12 rounded-full">
+            </div>
+            <div class="font-bold ml-2"> Employees Support Desk</div>
+            <div class="flex flex-1 justify-end">
+                <div class="account bg-cyan-500 rounded-full h-12 w-12 flex items-center justify-center text-2xl font-bold">A</div>
+            </div>
+        </div>
+
+        <div class="chat-container flex-1 overflow-y-auto px-36 py-4">
+            {% if chat_history != [] %}
+
+                    {% for chat in chat_history %}
+                        {% if chat.get("role")== "user" %}
+                            <div class="user-message max-w-[70%] ml-auto px-4 py-2 leading-6 bg-[#212121] rounded-2xl mb-4">
+                                {{ chat.get("content") }}
+                            </div>
+                        {% endif %}
+                        {% if chat.get("role")== "bot" %}
+                            <div class="bot-message px-4 py-2 leading-6 mb-4 ">
+                                {{ chat.get("content") | safe }}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+
+                {% endif %}
+            
+            
+        </div>
+
+        <div class="prompt p-4 border-t border-gray-700 flex-shrink-0 px-36">
+            <form action="/bot" method="post" enctype="multipart/form-data" class="flex gap-2">
+                <input 
+                    type="text" 
+                    name="prompt" 
+                    placeholder="Ask Serenity" 
+                    required
+                    class="flex-1 px-4 py-2 bg-[#212121] text-white rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                >
+                
+                <button 
+                    type="submit" 
+                    class="px-6 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg transition-colors duration-200 font-medium hidden"
+                >
+                    Send
+                </button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

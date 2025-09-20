@@ -1,0 +1,28 @@
+
+
+Question,Expected Answer (Ground Truth),Context Needed (for human review)
+How do I apply for remote work?,Employees wishing to work remotely must submit a remote work request form to their manager for approval.,Company Policy on Remote Work
+How many holidays do we get?,Employees are entitled to 10 paid public holidays per calendar year.,Holiday Leave Policy
+What's the process for getting IT help?,For any IT-related issues, please submit a ticket through our internal helpdesk portal at helpdesk.company.com. For urgent issues, call the IT hotline at ext. 1234.,IT Support Procedures
+When do I need to submit expense reports by?,All business expenses must be submitted for reimbursement within 30 days of incurring the expense.,Expense Reimbursement Guidelines
+Are there any health benefits?,Our company offers an employee wellness program, including discounted gym memberships, access to mental health resources, and weekly yoga sessions.,Employee Wellness Program
+Can I carry over unused leave?,Unused leave can be carried over for a maximum of 5 days to the next year.,Holiday Leave Policy
+What's the IT hotline number?,The IT hotline is ext. 1234.,IT Support Procedures
+What's the IT support availability?,Our IT support team is available Monday to Friday, 9 AM to 6 PM IST.,IT Support Procedures
+Do I need original receipts for expenses?,Original receipts are required for all expenses over ₹500.,Expense Reimbursement Guidelines
+How many annual leave days do I get?,Employees accrue 15 days of annual leave per year.,Holiday Leave Policy
+Can I take leave immediately after joining?,Leave can be taken after 3 months of continuous service.,Holiday Leave Policy
+Tell me about the employee wellness program.,Our company offers an employee wellness program, including discounted gym memberships, access to mental health resources, and weekly yoga sessions. Details can be found on the HR portal under "Wellness.",Employee Wellness Program
+How do I get reimbursed for travel?,Travel expenses should be pre-approved by your department head.,Expense Reimbursement Guidelines
+What's the policy on working from home?,Our company fully supports flexible work arrangements, including remote work, for eligible employees. Employees wishing to work remotely must submit a remote work request form to their manager for approval.,Company Policy on Remote Work
+Is there a gym discount?,Yes, the employee wellness program includes discounted gym memberships.,Employee Wellness Program
+What is the maximum amount of leave I can carry forward?,Unused leave can be carried over for a maximum of 5 days to the next year.,Holiday Leave Policy
+Where can I find more details on wellness?,Details on how to enroll and access these benefits can be found on the HR portal under "Wellness.",Employee Wellness Program
+What should I do for non-urgent IT issues?,For any IT-related issues, please submit a ticket through our internal helpdesk portal at helpdesk.company.com.,IT Support Procedures
+What are the per-diem rates for meals?,Meals and entertainment expenses must adhere to company per-diem rates. (Specific rates are not provided in the text, indicating the bot should state that or request clarification if the LLM is capable.),Expense Reimbursement Guidelines
+When are public holidays announced?,Specific dates for public holidays will be communicated annually.,Holiday Leave Policy
+What is not covered by the expense reimbursement?,Travel expenses should be pre-approved, and meals/entertainment must adhere to per-diem rates.,Expense Reimbursement Guidelines
+Is mental health support available?,Yes, the employee wellness program includes access to mental health resources.,Employee Wellness Program
+How often are yoga sessions held?,Weekly yoga sessions are offered as part of the employee wellness program.,Employee Wellness Program
+Do I need approval for remote work?,Yes, remote work requests must be approved by your manager.,Company Policy on Remote Work
+Can I call IT for non-urgent issues?,For non-urgent issues, please submit a ticket through the helpdesk portal. The hotline is for urgent issues.,IT Support Procedures
